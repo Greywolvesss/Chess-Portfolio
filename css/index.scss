@@ -1,0 +1,417 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,800;1,700&display=swap');
+
+
+// IMPORT CSS STYLES
+
+@import "_about";
+@import "_achieve";
+@import "_gallery";
+
+
+// VARIABLE COLOR CSS 
+
+$first-color: #4070F4;
+$second-color: #0E2431;
+
+// TYPOGRAPHY
+// font-family: 'Josefin Sans', sans-serif;  - MAIN
+// font-family: 'Playfair Display', serif;  - SECONDARY
+// font-family: 'Open Sans', sans-serif; TEXT 
+
+* { 
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html { 
+  scroll-behavior: smooth;
+  background: #FCFCFC;
+}
+
+img { 
+  display: block;
+  width: 100%;
+}
+
+ul { 
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+
+// SCROLL TOP
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  background: linear-gradient(rgba(0,0,0,0.3));
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 50px; 
+  font-size: 18px; 
+}
+
+#myBtn img { 
+  width: 20px;
+  height: 20px;
+}
+
+#myBtn:hover {
+  background: linear-gradient(rgba(0,0,0,0.5));
+}
+
+
+
+// NAVBAR SECTION
+
+.navbar { 
+  background-color: #fff !important;
+}
+
+.home-nav { 
+  margin-top: 15px  !important;
+}
+
+
+.navbar-brand  { 
+  font-family: 'Playfair Display', serif !important; 
+  // font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px !important;
+  letter-spacing: 2px;
+}
+
+.navbar-nav { 
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navbar-nav li a { 
+  font-family: 'Josefin Sans', serif;
+  font-size: 14px;
+  margin: 0 10px;
+  color: #333 !important;
+
+}
+
+.navbar-nav li a:hover { 
+  color:#5EA2C4 !important;
+}
+
+
+
+
+// HOME PAGE
+
+#main { 
+  width: 100%;
+  height: calc(100vh - 78.8px);
+
+  background-image: url("../img/mainbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+.main-row h1 { 
+  // font-family: 'Playfair Display', serif !important; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  margin: 30px 0;
+
+}
+
+.main-row h5 { 
+    font-family: 'Josefin Sans', serif;
+}
+
+.main-row p { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+
+  margin-top: 12px;
+  margin-bottom: 40px
+
+}
+
+.fide-btn { 
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: #5EA2C4;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: inline-block;
+
+}
+
+.fide-btn:hover {
+  color: #fff !important;
+  background: #4d86a3;
+  text-decoration: none;
+  }
+
+
+
+        @media only screen and (max-width: 572px) { 
+          
+
+          .main-col { 
+            margin: 25px;
+          }
+
+          .main-row h1 { 
+            font-size: 3rem !important;
+          }
+
+        }
+
+        @media only screen and (max-width: 430px) { 
+          
+
+          .main-row h1 { 
+            font-size: 2.8rem !important;
+          }
+          
+          .main-row h5 { 
+            font-size: 18px !important;
+          }
+
+          .main-row p { 
+            font-size: 14.8px !important;
+          }
+
+        }
+
+ 
+        
+ // QUOTE SECTION
+
+ #quote { 
+  margin: 30px 0;
+  padding: 30px;
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote p { 
+  font-family: 'Josefin Sans', serif;
+  padding: 5px 0;
+}       
+
+    @media (max-width: 768px) { 
+
+      #quote p { 
+        font-size: 1.2rem !important;
+      }   
+
+    }
+
+
+
+// LEARN SECTION
+
+#learn { 
+
+    margin: 30px 0;
+    background: #FCFCFC;
+    font-family: 'Open Sans', sans-serif;
+
+      .learn-con { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+            h2 { 
+              font-size: 1.5rem;
+              font-weight: 500;
+              letter-spacing: 2px;
+              margin: 15px 0;
+              font-family: 'Playfair Display', serif !important; 
+
+            }
+
+            p { 
+              font-size: 1rem;
+            }
+
+              
+          img { 
+            min-width: 300px !important;
+          }
+          
+
+
+      }
+
+}
+
+
+        @media (max-width: 576px) {
+
+          .learn-con h2 { 
+            font-size: 1.5rem !important;
+
+          }
+
+          .learn-con p { 
+            font-size: .98rem !important;
+          }
+
+        }
+
+
+// CATEGORY SECTION 
+
+#category { 
+
+  margin: 50px 0;
+
+        h2 { 
+          font-family: 'Playfair Display', serif !important; 
+          text-align: center;
+        }
+}
+
+.category-row { 
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.category-row .card { 
+  width: 335px;
+  border: none;
+}
+
+.category-row .card h5 { 
+  font-family: 'Playfair Display', serif !important; 
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  margin: 15px 0;
+
+}
+
+.category-row .card p { 
+  font-size: 1rem;
+  font-family: 'Open Sans' sans-serif !important;
+
+}
+
+              
+      @media (max-width: 576px) {
+
+        #category h2 { 
+          font-size: 1.7rem !important;
+
+        }
+
+
+      }
+
+
+// CONTACT SECTION
+
+#contact { 
+  margin: 40px 0;
+  padding: 50px 20px;
+  color: #fff;
+  background-image: url("../img/shattered-island.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+        .contact-con { 
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          flex-wrap: wrap;
+          text-align: center;
+
+
+                      h2 { 
+                        font-size: 2.7rem;
+                        letter-spacing: 2px;
+                        margin: 30px 0;
+                        font-family: 'Playfair Display', serif !important; 
+                      }
+
+                      .message { 
+                        line-height: 24px;
+                        font-size: 1rem;
+                        font-family: 'Open Sans', sans-serif;
+                        margin-bottom: 30px;
+                        // color:  rgb(197, 197, 197);
+                      }
+                
+
+                    .email { 
+                      color: rgb(255, 255, 255);
+
+                        span { 
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .phone { 
+                      color: rgb(255, 255, 255);
+
+                      span { 
+                          margin-right: 5px;
+                      }
+                    }
+
+
+                }
+                
+        }
+        
+
+        @media (max-width: 576px) {
+
+         .contact-con h2 { 
+            font-size: 2.2rem !important;
+
+          }
+        
+          .contact-con                      
+           .message { 
+            font-size: 1rem !important;
+            margin-left: 15px;
+          }
+        }

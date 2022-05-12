@@ -1,0 +1,652 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,800;1,700&display=swap");
+.about-jumbo {
+  background-image: url("../img/shattered-island.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
+.about-jumbo h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem !important;
+  color: #fff;
+}
+
+#about {
+  margin: 30px 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutme h2 {
+  font-size: 3.1rem;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif !important;
+}
+
+.aboutme .rating {
+  color: #212529;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.aboutme h5 {
+  font-family: 'Josefin Sans', serif;
+  font-size: 1.2rem;
+  margin: 13px 0;
+}
+
+.aboutme h5 .wiki {
+  font-size: 16px;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.aboutme p {
+  line-height: 28px;
+}
+
+.aboutimg img {
+  width: 100%;
+  min-height: 550px;
+}
+
+@media only screen and (max-width: 1010px) {
+  .about-jumbo h1 {
+    font-size: 2.1rem !important;
+  }
+  .aboutimg img {
+    min-height: 450px;
+  }
+  .aboutme h2 {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .about-jumbo h1 {
+    font-size: 1.8rem !important;
+  }
+  .aboutme {
+    margin: 5px 0;
+  }
+  .aboutme h2 {
+    font-size: 2.2rem !important;
+  }
+  .aboutme .name {
+    font-size: 1.1rem;
+  }
+}
+
+#articles {
+  margin: 40px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#articles h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif !important;
+}
+
+#articles .article-con a {
+  margin: 5px 0;
+}
+
+.achie-jumbo {
+  background-image: url("../img/shattered-island.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
+.achie-jumbo h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem !important;
+  color: #fff;
+}
+
+.achie-jumbo p {
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 730px) {
+  .achie-jumbo h1 {
+    font-size: 2.1rem !important;
+  }
+  .achie-jumbo p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .achie-jumbo h1 {
+    font-size: 1.9rem !important;
+  }
+}
+
+.table-box {
+  margin: 50px auto;
+}
+
+.table-box p {
+  text-align: center;
+}
+
+.table-row {
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 12px 0;
+  color: #555;
+  font-size: 16px;
+  -webkit-box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+          box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+}
+
+.table-head {
+  background: #5EA2C4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-head .table-cell {
+  border-right: none;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+
+.first-cell {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.last-cell {
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+@media only screen and (max-width: 572px) {
+  .table-row {
+    font-size: 11px;
+  }
+  #achievements h1 {
+    font-size: 23px;
+  }
+}
+
+.gallery-jumbo {
+  background-image: url("../img/shattered-island.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
+.gallery-jumbo h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem !important;
+  color: #fff;
+}
+
+.gallery-jumbo p {
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 730px) {
+  .gallery-jumbo h1 {
+    font-size: 2.1rem !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .gallery-jumbo h1 {
+    font-size: 1.9rem !important;
+  }
+}
+
+.container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+}
+
+.tz-gallery {
+  padding: 20px;
+}
+
+.tz-gallery .trophy {
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: black;
+  font-family: 'Playfair Display', serif !important;
+}
+
+.tz-gallery p {
+  margin-bottom: 30px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.tz-gallery .lightbox img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tz-gallery img {
+  border-radius: 4px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .container.gallery-container {
+    border-radius: 0;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #FCFCFC;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)));
+  background: linear-gradient(rgba(0, 0, 0, 0.3));
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+#myBtn img {
+  width: 20px;
+  height: 20px;
+}
+
+#myBtn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.home-nav {
+  margin-top: 15px  !important;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700;
+  font-size: 30px !important;
+  letter-spacing: 2px;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navbar-nav li a {
+  font-family: 'Josefin Sans', serif;
+  font-size: 14px;
+  margin: 0 10px;
+  color: #333 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #5EA2C4 !important;
+}
+
+#main {
+  width: 100%;
+  height: calc(100vh - 78.8px);
+  background-image: url("../img/mainbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.main-row h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 30px 0;
+}
+
+.main-row h5 {
+  font-family: 'Josefin Sans', serif;
+}
+
+.main-row p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+.fide-btn {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: #5EA2C4;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.fide-btn:hover {
+  color: #fff !important;
+  background: #4d86a3;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 572px) {
+  .main-col {
+    margin: 25px;
+  }
+  .main-row h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main-row h1 {
+    font-size: 2.8rem !important;
+  }
+  .main-row h5 {
+    font-size: 18px !important;
+  }
+  .main-row p {
+    font-size: 14.8px !important;
+  }
+}
+
+#quote {
+  margin: 30px 0;
+  padding: 30px;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#quote p {
+  font-family: 'Josefin Sans', serif;
+  padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+  #quote p {
+    font-size: 1.2rem !important;
+  }
+}
+
+#learn {
+  margin: 30px 0;
+  background: #FCFCFC;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#learn .learn-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#learn .learn-con h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif !important;
+}
+
+#learn .learn-con p {
+  font-size: 1rem;
+}
+
+#learn .learn-con img {
+  min-width: 300px !important;
+}
+
+@media (max-width: 576px) {
+  .learn-con h2 {
+    font-size: 1.5rem !important;
+  }
+  .learn-con p {
+    font-size: .98rem !important;
+  }
+}
+
+#category {
+  margin: 50px 0;
+}
+
+#category h2 {
+  font-family: 'Playfair Display', serif !important;
+  text-align: center;
+}
+
+.category-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+}
+
+.category-row .card {
+  width: 335px;
+  border: none;
+}
+
+.category-row .card h5 {
+  font-family: 'Playfair Display', serif !important;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 15px 0;
+}
+
+.category-row .card p {
+  font-size: 1rem;
+  font-family: 'Open Sans' sans-serif !important;
+}
+
+@media (max-width: 576px) {
+  #category h2 {
+    font-size: 1.7rem !important;
+  }
+}
+
+#contact {
+  margin: 40px 0;
+  padding: 50px 20px;
+  color: #fff;
+  background-image: url("../img/shattered-island.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+#contact .contact-con h2 {
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  font-family: 'Playfair Display', serif !important;
+}
+
+#contact .contact-con .message {
+  line-height: 24px;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+#contact .contact-con .email {
+  color: white;
+}
+
+#contact .contact-con .email span {
+  margin-right: 5px;
+}
+
+#contact .contact-con .phone {
+  color: white;
+}
+
+#contact .contact-con .phone span {
+  margin-right: 5px;
+}
+
+@media (max-width: 576px) {
+  .contact-con h2 {
+    font-size: 2.2rem !important;
+  }
+  .contact-con
+.message {
+    font-size: 1rem !important;
+    margin-left: 15px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
